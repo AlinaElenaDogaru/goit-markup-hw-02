@@ -4,13 +4,36 @@
     --black: #212121;
     --grey: #757575;
     --white: #FFFFFF;
-    --normal-font-size: 14;
-    --middle-font-size: 16;
+    --normal-font-size: 14px;
+    --middle-font-size: 16px;
     --main-font: "Roboto"
     
 }
+/* Body global*/
 .entire-content {
-font-family: var(--main-font);
+font-family: var(--main-font, sans-serif);
+color: var(--black);
+}
+
+/* Header style*/
+.web-studio {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0.48px;
+    text-align: left;
+    line-height: auto;
+}
+.web-logo {
+    color: var(--blue);
+}
+/* Navigation list*/
+.navigation-list {
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-align: left;
+    line-height: auto;
 }
 
 .title-section { 
