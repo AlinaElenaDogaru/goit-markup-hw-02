@@ -23,7 +23,7 @@ width: 1600px;
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.78px;
     text-align: left;
     line-height: auto;
 }
@@ -34,13 +34,15 @@ width: 1600px;
 .navigation-list {
     font-size: var(--normal-font-size);
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: ;
     text-align: left;
     line-height: auto;
 }
 
 .header-links {
     font-weight: 500;
+    letter-spacing: 0.28px;
+    line-height: auto;
 }
 
 /* Link style */
@@ -50,6 +52,9 @@ a {
 }
 .link:hover {
     color: var(--blue);
+}
+.link:focus {
+    color: var(--blue)
 }
 
 /*Title section*/
@@ -64,6 +69,8 @@ a {
 .main-title {
     color: var(--white);
     font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
 }
 
 .blue-button {
@@ -76,6 +83,8 @@ a {
     border-radius: 4px;
     width: 200px;
     height: 50px;
+    line-height: 1.88;
+    letter-spacing: 0.96px;
 }
 
 /*Advantages & what we do section*/
@@ -83,12 +92,14 @@ a {
 .advantage {
     font-size: var(--normal-font-size);
     font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.42px;
 }
 .advantage-description {
 color: var(--grey);
 text-align: left;
-width: 270;
-height: 72;
+line-height: 1.71;
+letter-spacing: 0.42px;
 }
 
 .list, .benefits {
@@ -99,16 +110,22 @@ height: 72;
 .do-title .our-team-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: auto;
+    letter-spacing: 1.08;
 }
  /*Our team section*/
 
 .name {
     font-size: var(--middle-font-size);
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
 }
 .ocupation {
     font-size: var(--middle-font-size);
     color: var(--grey);
+    line-height: auto;
+    letter-spacing: 0.48px;
 }
 
 /*Footer*/
@@ -123,7 +140,7 @@ height: 72;
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.78px;
     text-align: left;
     line-height: auto;
     color: var(--white);
@@ -135,9 +152,20 @@ height: 72;
 .contacts-detailes {
 font-style: normal;
 }
-
+.park {
+    line-height: 1.2;
+    letter-spacing: 0.42;
+}
 .info, .number {
     color: #FFFFFF60;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+}
+.info:hover, .number:hover {
+    color: var(--blue);
+}
+.info:focus, .number:focus {
+color: var(--blue);
 }
  
 /* Portofolio page*/
@@ -150,9 +178,16 @@ font-style: normal;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    line-height: 1.63;
+    letter-spacing: 0.48px;
+    text-align: center;
 }
 
 .buttons-element:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.buttons-element:focus {
     background-color: var(--blue);
     color: var(--white);
 }
@@ -163,8 +198,14 @@ font-style: normal;
 .projects {
     font-weight: 700;
     font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    text-align: left;
 }
 .projects-type {
     color: var(--grey);
     font-size: var(--middle-font-size);
+    line-height: 1.88;
+    letter-spacing: 0.48px;
+    text-align: left;
 }
