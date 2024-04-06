@@ -13,13 +13,14 @@
 .entire-content {
 font-family: var(--main-font, sans-serif);
 color: var(--black);
+width: 1600px;
 }
 
 /* Header style*/
 .web-studio {
     font-family: "Raleway";
     font-size: 26px;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.48px;
     text-align: left;
     line-height: auto;
@@ -40,6 +41,7 @@ color: var(--black);
     font-weight: 500;
 }
 
+/* Link style */
 a {
     text-decoration: none;
     color: var(--black);
@@ -48,7 +50,7 @@ a {
     color: var(--blue);
 }
 
-
+/*Title section*/
 .title-section { 
     height: 600px;
     width: 1600px;
@@ -59,11 +61,71 @@ a {
  
 .main-title {
     color: var(--white);
+    font-weight: 900;
 }
 
+.blue-button {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+}
 
+/*Advantages & what we do section*/
 
+.advantage {
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+}
+.advantage-description {
+color: var(--grey);
+text-align: left;
+width: 270;
+height: 72;
+}
 
 .list, .benefits {
     list-style-type: none;
 }
+
+/* What we do*/
+.do-title .our-team-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+ /*Our team section*/
+
+.name {
+    font-size: var(--middle-font-size);
+    font-weight: 500;
+}
+.ocupation {
+    font-size: var(--middle-font-size);
+    color: var(--grey);
+}
+
+/*Footer*/
+.contacts {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 251px;
+    color: var(--white);
+}
+
+.web-studio-light {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    text-align: left;
+    line-height: auto;
+    color: var(--white);
+}
+
+.web-logo-light {
+    color: var(--blue);
+}
+.contacts-detailes {
+font-style: normal;
+}
+
